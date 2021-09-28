@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    style="@style/LightTheme"
+    style="@style/DarkTheme"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -26,7 +26,7 @@
 
         <Button
             android:id="@+id/digit_button_one"
-            style="@style/ButtonLightTheme"
+            style="@style/ButtonDarkTheme"
             android:layout_width="@dimen/default_size_button"
             android:layout_height="@dimen/default_size_button"
             android:layout_margin="@dimen/default_margin"
@@ -35,7 +35,7 @@
 
         <Button
             android:id="@+id/digit_button_two"
-            style="@style/ButtonLightTheme"
+            style="@style/ButtonDarkTheme"
             android:layout_width="@dimen/default_size_button"
             android:layout_height="@dimen/default_size_button"
             android:layout_margin="@dimen/default_margin"
@@ -44,7 +44,7 @@
 
         <Button
             android:id="@+id/digit_button_three"
-            style="@style/ButtonLightTheme"
+            style="@style/ButtonDarkTheme"
             android:layout_width="@dimen/default_size_button"
             android:layout_height="@dimen/default_size_button"
             android:layout_margin="@dimen/default_margin"
@@ -62,7 +62,7 @@
 
         <Button
             android:id="@+id/digit_button_four"
-            style="@style/ButtonLightTheme"
+            style="@style/ButtonDarkTheme"
             android:layout_width="@dimen/default_size_button"
             android:layout_height="@dimen/default_size_button"
             android:layout_margin="@dimen/default_margin"
@@ -71,7 +71,7 @@
 
         <Button
             android:id="@+id/digit_button_five"
-            style="@style/ButtonLightTheme"
+            style="@style/ButtonDarkTheme"
             android:layout_width="@dimen/default_size_button"
             android:layout_height="@dimen/default_size_button"
             android:layout_margin="@dimen/default_margin"
@@ -80,7 +80,7 @@
 
         <Button
             android:id="@+id/digit_button_six"
-            style="@style/ButtonLightTheme"
+            style="@style/ButtonDarkTheme"
             android:layout_width="@dimen/default_size_button"
             android:layout_height="@dimen/default_size_button"
             android:layout_margin="@dimen/default_margin"
@@ -98,7 +98,7 @@
 
         <Button
             android:id="@+id/digit_button_seven"
-            style="@style/ButtonLightTheme"
+            style="@style/ButtonDarkTheme"
             android:layout_width="@dimen/default_size_button"
             android:layout_height="@dimen/default_size_button"
             android:layout_margin="@dimen/default_margin"
@@ -107,7 +107,7 @@
 
         <Button
             android:id="@+id/digit_button_eight"
-            style="@style/ButtonLightTheme"
+            style="@style/ButtonDarkTheme"
             android:layout_width="@dimen/default_size_button"
             android:layout_height="@dimen/default_size_button"
             android:layout_margin="@dimen/default_margin"
@@ -116,7 +116,7 @@
 
         <Button
             android:id="@+id/digit_button_nine"
-            style="@style/ButtonLightTheme"
+            style="@style/ButtonDarkTheme"
             android:layout_width="@dimen/default_size_button"
             android:layout_height="@dimen/default_size_button"
             android:layout_margin="@dimen/default_margin"

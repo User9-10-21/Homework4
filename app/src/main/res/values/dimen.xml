@@ -4,6 +4,5 @@
     <dimen name="default_size_button">70dp</dimen>
     <dimen name="left_linaer_margin">70dp</dimen>
     <dimen name="default_text_size">20dp</dimen>
-    <dimen name="button_text_colour">#fffff</dimen>
-
+    <dimen name="big_text_size">50dp</dimen>
 </resources>
