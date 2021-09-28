@@ -2,9 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    style="@style/DarkTheme"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -12,47 +12,45 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="350dp"
-        android:paddingTop="120dp"
-        android:textSize="50dp"
         android:paddingLeft="65dp"
+        android:paddingTop="120dp"
+        android:text="Hello, world!"
         android:textColor="#c1c1c1"
-        android:text="Hello, world!"/>
+        android:textSize="@dimen/big_text_size" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginLeft="@dimen/left_linaer_margin">
+        android:layout_marginLeft="@dimen/left_linaer_margin"
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/digit_button_one"
+            style="@style/ButtonDarkTheme"
             android:layout_width="@dimen/default_size_button"
             android:layout_height="@dimen/default_size_button"
             android:layout_margin="@dimen/default_margin"
-            android:backgroundTint="@color/red"
-            android:textSize="@dimen/default_text_size"
             android:text="1"
-            android:textColor="@color/white" />
+            android:textSize="@dimen/default_text_size" />
 
         <Button
             android:id="@+id/digit_button_two"
+            style="@style/ButtonDarkTheme"
             android:layout_width="@dimen/default_size_button"
             android:layout_height="@dimen/default_size_button"
             android:layout_margin="@dimen/default_margin"
             android:backgroundTint="@color/red"
-            android:textSize="@dimen/default_text_size"
             android:text="2"
-            android:textColor="@color/white" />
+            android:textSize="@dimen/default_text_size" />
 
         <Button
             android:id="@+id/digit_button_three"
+            style="@style/ButtonDarkTheme"
             android:layout_width="@dimen/default_size_button"
             android:layout_height="@dimen/default_size_button"
             android:layout_margin="@dimen/default_margin"
-            android:backgroundTint="@color/red"
-            android:textSize="@dimen/default_text_size"
             android:text="3"
-            android:textColor="@color/white" />
+            android:textSize="@dimen/default_text_size" />
 
 
     </LinearLayout>
@@ -60,38 +58,35 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginLeft="@dimen/left_linaer_margin">
+        android:layout_marginLeft="@dimen/left_linaer_margin"
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/digit_button_four"
+            style="@style/ButtonDarkTheme"
             android:layout_width="@dimen/default_size_button"
             android:layout_height="@dimen/default_size_button"
             android:layout_margin="@dimen/default_margin"
-            android:backgroundTint="@color/red"
-            android:textSize="@dimen/default_text_size"
             android:text="4"
-            android:textColor="@color/white" />
+            android:textSize="@dimen/default_text_size" />
 
         <Button
             android:id="@+id/digit_button_five"
+            style="@style/ButtonDarkTheme"
             android:layout_width="@dimen/default_size_button"
             android:layout_height="@dimen/default_size_button"
             android:layout_margin="@dimen/default_margin"
-            android:backgroundTint="@color/red"
-            android:textSize="@dimen/default_text_size"
             android:text="5"
-            android:textColor="@color/white" />
+            android:textSize="@dimen/default_text_size" />
 
         <Button
             android:id="@+id/digit_button_six"
+            style="@style/ButtonDarkTheme"
             android:layout_width="@dimen/default_size_button"
             android:layout_height="@dimen/default_size_button"
             android:layout_margin="@dimen/default_margin"
-            android:backgroundTint="@color/red"
-            android:textSize="@dimen/default_text_size"
             android:text="6"
-            android:textColor="@color/white" />
+            android:textSize="@dimen/default_text_size" />
 
 
     </LinearLayout>
@@ -99,38 +94,35 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginLeft="@dimen/left_linaer_margin">
+        android:layout_marginLeft="@dimen/left_linaer_margin"
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/digit_button_seven"
+            style="@style/ButtonDarkTheme"
             android:layout_width="@dimen/default_size_button"
             android:layout_height="@dimen/default_size_button"
             android:layout_margin="@dimen/default_margin"
-            android:backgroundTint="@color/red"
-            android:textSize="@dimen/default_text_size"
             android:text="7"
-            android:textColor="@color/white" />
+            android:textSize="@dimen/default_text_size" />
 
         <Button
             android:id="@+id/digit_button_eight"
+            style="@style/ButtonDarkTheme"
             android:layout_width="@dimen/default_size_button"
             android:layout_height="@dimen/default_size_button"
             android:layout_margin="@dimen/default_margin"
-            android:backgroundTint="@color/red"
-            android:textSize="@dimen/default_text_size"
             android:text="8"
-            android:textColor="@color/white" />
+            android:textSize="@dimen/default_text_size" />
 
         <Button
             android:id="@+id/digit_button_nine"
+            style="@style/ButtonDarkTheme"
             android:layout_width="@dimen/default_size_button"
             android:layout_height="@dimen/default_size_button"
             android:layout_margin="@dimen/default_margin"
-            android:backgroundTint="@color/red"
-            android:textSize="@dimen/default_text_size"
             android:text="9"
-            android:textColor="@color/white" />
+            android:textSize="@dimen/default_text_size" />
 
 
     </LinearLayout>
